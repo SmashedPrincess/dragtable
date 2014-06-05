@@ -112,6 +112,7 @@
 	                .focus()
 					.disableSelection()
 					.css({
+						width: $handle.width() + 'px',
 	                    top: elementOffsetTop,
 	                    //need to account for the scroll left of the append target, other wise the display will be off by that many pix
 	                    left: ( self.currentColumnCollectionOffset.left + o.appendTarget[0].scrollLeft )
